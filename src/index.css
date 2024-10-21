@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    h1{
+        @apply text-white font-antonio text-[80px] font-normal leading-normal uppercase;
+    }
+    h2{
+        @apply text-white font-spartan text-[12px] font-bold leading-[25px] tracking-[2.571px] uppercase;
+    }
+    h3{
+      @apply text-white font-spartan text-[12px] font-bold leading-[25px] tracking-[2.571px] uppercase;
+    }
+    h4{
+      @apply text-white font-spartan text-[11px] font-bold leading-[25px] tracking-[1px] uppercase
+    }
+    body{
+      @apply  bg-[#070724];
+    }
+}
