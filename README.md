@@ -53,7 +53,7 @@ The **Planets Fact Site** is an interactive platform designed to educate users a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/planets-fact-site.git
+   git clone https://github.com/gilmore-1/planets-fact-site.git
    cd planets-fact-site
 2. Install dependencies:
    ```bash
@@ -110,7 +110,7 @@ The project uses a static data source to populate planetary information. Below i
           "geology": "/images/earth-geology.png"
         }
       }
-  ]
+    ]
 ## 🌐 **Application Routes**
 
 | Route        | Description             |
